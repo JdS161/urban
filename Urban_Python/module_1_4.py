@@ -1,0 +1,7 @@
+my_string = input("Input your string: ")
+print("String length:", len(my_string))
+print("String in upper case:", my_string.upper())
+print("String in lower case:", my_string.lower())
+print("String without spaces:", my_string.replace(' ',''))
+print("First symbol:", my_string[0])
+print("Last symbol:", my_string[-1])
